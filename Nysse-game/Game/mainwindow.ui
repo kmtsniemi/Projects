@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="gameView">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>321</width>
+      <height>251</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="busTimeLcdNumber">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>20</y>
+      <width>64</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="upPushButton">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>70</y>
+      <width>84</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Up</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="leftPushButton">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>110</y>
+      <width>84</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Left</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rightPushButton">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>110</y>
+      <width>84</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Right</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="downPushButton">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>150</y>
+      <width>84</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Down</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startPushButton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>20</y>
+      <width>84</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start Game</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="nameTextBrowser">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>190</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="infoTextBrowser">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>250</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Ohjeet:&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Aloita peli Start Game-napista. Syö tasan 50 matkustajaa mahdollisimman nopeasti! Pisteet kerääntyvät syötyjen matkustajien mukaan. Syömällä enemmän pisteet tippuvat 20. Syömällä lentokoneen saa käyttöön x2-napin, jota painaessa saa tuplattua pisteet.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Pelihahmoa ei voi liikkuttaa pois pelikentältä. Pelihahmoa voi liikuttaa myös kirjaimista W (ylös), S (alas), A (vasen) ja D (oikea). Pelihamo syö myös B-kirjaimesta.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Kattavammat ohjeet löytyvät Other files-&amp;gt;kuvia-&amp;gt;Instructions&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="pointsLcdNumber">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>80</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nameLabel">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>50</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Name :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="pointsLabel">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>80</y>
+      <width>63</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Points :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="eatPushButton">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>170</y>
+      <width>84</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>EAT</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="topTextBrowser">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>280</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="x2PushButton">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>120</y>
+      <width>84</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>x2</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="playingTimeLcdNumber">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>20</y>
+      <width>64</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,37 @@
+Nysse-pelin ideana on syödä linja-autoissa olevia matkustajia 50 kappaletta.
+Peli perustuu sekä tuuriin että taktikointiin.
+
+Pelin aloittaessa näkyviin tulee aloitusikkuna, johon pelaajan tulee syöttää
+nimensä. Vasta nimen syötettyä pelaaja voi aloittaa pelin play-napista.
+Seuraavaksi näkyviin tulee pelin pääikkuna, jossa pelikenttä on vasemmalla.
+Pelikentällä on matkustajia, linja-autoja ja niiden pysäkkejä. Linja-autot
+liikkuvat aikataulujen eli vasemman puolisen kellon mukaan ja keräävät
+matkustajia pysäkeiltä. Start Game-napista voi aloittaa pelin, jolloin
+pelikentälle ilmestyy lisäksi pelaajan pelihahmo ja peliaika eli oikean
+puolemmainen kello lähtee käyntiin.
+
+Pelihahmoa voi liikuttaa pääikkunassa näkyvistä napeista tai tietokoneen
+näppäimistöstä. Pelihahmo liikkuu W-kirjaimesta ylös, S-kirjaimesta alas,
+A-kirjaimesta vasemmalle ja D-kirjaimesta oikealle. Pelihahmo voi syödä
+linja-autoja menemällä linja-auton kohdalle ja painamalla pääikkunan EAT-
+nappia tai tietokoneen näppäimistöstä B-kirjainta.
+
+Pelin pisteet keräytyvät syötyjen linja-automatkustajien mukaan. Linja-autojen
+matkustajamääriä ei ole näkyvissä, jotta pelaaja ei voi laskea. Pisteiden
+kokonaismäärä on näkyvissä pääikkunan keskellä (lisäominaisuus pelin tilan
+seuranta) Tavoitteena on syödä tasan 50 matkustajaa. Syödessään enemmän pisteet
+tippuvat 20.
+
+Pelikentälle ilmestyy 30 sekunnin kohdalla lentokone, joka lentää pelikentän
+halki alakulmasta yläkulmaan. Tämä on ainoa kerta, milloin lentokone tulee
+näkyviin. Pelihahmo voi syödä lentokoneen, jolloin pelaaja saa käyttöönsä
+x2-napin. Nappia painaessa pelaajan pisteet kaksinkertaistuvat (lisäominaisuus
+pelihahmon päivitys). Nappia voi painaa vain kerran.
+
+Pääikkunan oikealla puolella näkyy sen hetkinen top 10-lista. Lista muodostuu
+pelaajasta, jotka ovat saaneet nopeinten kasaan 50 pistettä. (lisäominaisuus
+Top10-lista). Lista päivittyy vasta uudelleen käynnistyksessä.
+
+Pelihahmon syödessä tasan 50 matkustajaa peli päättyy. Peliaika pysähtyy, josta
+pelaaja voi nähdä kuluttamansa aikansa. Uuden pelin voi aloittaa sulkemalla
+nykyisen pelin ja avaamalla uuden. Jolloin top 10-listakin on päivittynyt.

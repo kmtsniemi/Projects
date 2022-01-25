@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/kuvat">
+        <file>kuvia/bussi_14x14.png</file>
+        <file>kuvia/pelaaja_14x14.png</file>
+        <file>kuvia/pysäkki_14x14.png</file>
+        <file>kuvia/matkustaja_14x14.png</file>
+        <file>kuvia/lentokone_20x20.png</file>
+        <file>kuvia/lentokone2_20x20.png</file>
+    </qresource>
+</RCC>
