@@ -1,0 +1,18 @@
+#ifndef INSTRUCTIONS_TXT
+#define INSTRUCTIONS_TXT
+
+Peli alkaa START napista.
+Putoavaa tetrominoa voidaan siirrellä oikealle ja vasemmalle RIGHT ja LEFT napeista tai näppäimistä A ja D.
+Tetrominon putoamista voidaan nopeuttaa painamalla S näppäintä tai SPEED napista. Tetrominoja pitäisi pystyä siirtämään myös sen laskeuduttua alas ennen uuden syntymistä.
+Kaikkiaan erilaisia tetrominoja on seitsemän erilaista ja eriväristä, jotka putoavat automaattisesti pelialueen yläreunasta satunnaisessa järjestyksessä.
+
+Tarkoituksena on muodostaa mahdollisimman monta täyttä riviä tetrominoista.
+Jokaisesta täydestä rivistä saa 12 pistettä, jotka tulevat näkymään SCORE kohdassa.
+Peliin kulunutta aikaa voit seurata TIME kohdasta.
+Peli päättyy, kun tetrominot kasautuvat pelialueen yläreunaan asti.
+Uuden pelin voi aloittaa NEW GAME näppäimellä.
+
+Pelin ohjeet saa näkyviin HELP napista.
+
+
+#endif // INSTRUCTIONS_TXT
