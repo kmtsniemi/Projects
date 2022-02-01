@@ -14,6 +14,3 @@ There is some of my schoolprojects in this repository.
 ## Technologies Used
 - Python
 - C++
-- JavaScript
-- CSS
-- HTML
